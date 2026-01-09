@@ -1,11 +1,31 @@
-# Dashboard de Produção
+# Dashboard com Indicadores de Produção
 
-Dashboard de produção realizado em curso de Power BI da Hashtag.
+Este projeto consiste em um dashboard para análise de indicadores de produção desenvolvido com Power BI durante treinamento da Hashtag Treinamentos.
 
-## Tecnologias Utilizadas
+### Pré-requisitos
 
-<img src="https://avatars.githubusercontent.com/u/42988494?s=200&v=4" width="50" height="50"/>
+Power BI Desktop ou uma conta no Power BI Service.
 
-## Link para a Aplicação
+### Como Rodar a Aplicação
 
-Dashboard Power BI: <a style="text-decoration:none;" href="https://app.powerbi.com/groups/me/reports/668e6db9-48fb-47c7-a343-8fd5de47b6f9/ReportSection?redirectedFromSignup=1&experience=power-bi" target="_blank">link</a>.
+Clone o repositório ou baixe o arquivo `.pbix`:
+    
+```bash
+#clonar o repositório
+git clone https://github.com/jorgeplatero/dashboard-producao.git
+```
+
+Abra o arquivo `.pbix` no Power BI Desktop. Caso os dados não carreguem automaticamente, verifique o caminho das fontes de dados no Power Query e execute uma atualização para popular o modelo de dados.
+
+### Tecnologias
+
+| Componente | Tecnologia | Versão | Descrição |
+| :--- | :--- | :--- | :--- |
+| **Plataforma BI** | **Power BI** | `-` | Plataforma de BI para desenvolvimento de dashboards |
+
+
+### Deploy
+
+O dashboard está disponível via Power BI Service.
+
+Link para o dashboard: https://app.powerbi.com/view?r=eyJrIjoiMGQyNmViNmUtYjBlOC00YjFjLWE4MGItODMzMjVjMDAyZGMzIiwidCI6IjFmZTA1YTY2LWNhMjYtNGJmZC1hZDlkLWQzMDRhZGViMjIwNSJ9
